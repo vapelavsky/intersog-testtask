@@ -7,7 +7,8 @@ class Human:
     1. drink
     2. travel
     3. sum calculate
-    4. """
+    4. sleep
+    5. show hobbies"""
     age = 28
     sex = "F"
     hobbies = ["Music", "Cinema", "Active leisure"]
