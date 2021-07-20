@@ -50,4 +50,4 @@ class Human:
         for hobby in cls.hobbies:
             print(hobby)
 
-        return "So, that's all"
+        return "Great, that's all"
