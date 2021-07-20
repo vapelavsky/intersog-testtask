@@ -12,6 +12,9 @@ class Human:
     sex = "F"
     hobbies = ["Music", "Cinema", "Active leisure"]
     country = "Ukraine"
+    job = "TikTok Bloger"
+    hair = "Blue"
+    height = 168
 
     @classmethod
     def __init__(cls):
@@ -36,3 +39,15 @@ class Human:
         return f"I'm very smart, so I can calculate sum of given numbers.\n" \
                f"Given numbers is {a} and {b}.\n" \
                f"So, your answer is {a + b} \n"
+
+    @staticmethod
+    def sleep(hours):
+        return f"Ok, dear, I will sleep for {hours} hours"
+
+    @classmethod
+    def showhobbies(cls):
+        print("My hobbies is")
+        for hobby in cls.hobbies:
+            print(hobby)
+
+        return "So, that's all"
